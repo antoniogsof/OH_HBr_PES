@@ -12,6 +12,7 @@ There is also a minimal working example in the test.f90 file.
 
 Cartesian coordinates in angstrom
 
+```
 xyz(1,1)=  x_H1 
 xyz(1,2)=  y_H1
 xyz(1,3)=  z_H1
@@ -24,6 +25,8 @@ xyz(3,3)=  z_O
 xyz(4,1)=  x_Br
 xyz(4,2)=  y_Br
 xyz(4,3)=  z_Br
+```
+
 
 ### Output
 
@@ -31,6 +34,7 @@ xyz(4,3)=  z_Br
 
 `dxyz(4,3)` returns the cartesian numerical gradient in  hartree/angstrom.
 
+```
 dxyz(1,1)=  dvdx_H1 
 dxyz(1,2)=  dvdy_H1
 dxyz(1,3)=  dvdz_H1
@@ -43,7 +47,7 @@ dxyz(3,3)=  dvdz_O
 dxyz(4,1)=  dvdx_Br
 dxyz(4,2)=  dvdy_Br
 dxyz(4,3)=  dvdz_Br
-
+```
 
 #### NOTE:
     Before any actual potential energy calculations are made, a single
